@@ -102,14 +102,13 @@
 		5D3FD1C129CE1DCF00224E3E /* ElonsPath */ = {
 			isa = PBXGroup;
 			children = (
-				5D3FD1C229CE1DCF00224E3E /* AppDelegate.swift */,
+				5D74EF0C29E33F7400835457 /* App */,
 				5D3FD1C429CE1DD000224E3E /* GameScene.sks */,
 				5D3FD1C629CE1DD000224E3E /* Actions.sks */,
 				5D3FD1C829CE1DD000224E3E /* GameScene.swift */,
 				5D3FD1CA29CE1DD000224E3E /* GameViewController.swift */,
 				5D3FD1CC29CE1DD000224E3E /* Main.storyboard */,
-				5D3FD1CF29CE1DD100224E3E /* Assets.xcassets */,
-				5D3FD1D129CE1DD100224E3E /* LaunchScreen.storyboard */,
+				5D74EF0D29E33F7B00835457 /* Resources */,
 			);
 			path = ElonsPath;
 			sourceTree = "<group>";
@@ -129,6 +128,39 @@
 				5D3FD1E829CE1DD200224E3E /* ElonsPathUITestsLaunchTests.swift */,
 			);
 			path = ElonsPathUITests;
+			sourceTree = "<group>";
+		};
+		5D74EF0C29E33F7400835457 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D3FD1C229CE1DCF00224E3E /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D74EF0D29E33F7B00835457 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D74EF0F29E33F8D00835457 /* Media */,
+				5D74EF0E29E33F8800835457 /* Launch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D74EF0E29E33F8800835457 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5D3FD1D129CE1DD100224E3E /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		5D74EF0F29E33F8D00835457 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				5D3FD1CF29CE1DD100224E3E /* Assets.xcassets */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,8 +481,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,8 +509,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
